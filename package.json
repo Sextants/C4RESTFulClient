@@ -1,0 +1,39 @@
+{
+  "name": "c4restfulclient",
+  "version": "0.0.1",
+  "description": "C4Framework RESTFulClient",
+  "main": "out",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sextants/C4RESTFulClient.git"
+  },
+  "keywords": [
+    "C4",
+    "Framework",
+    "RESTFul",
+    "Client"
+  ],
+  "author": "Sextant",
+  "bugs": {
+    "url": "https://github.com/Sextants/C4RESTFulClient.git"
+  },
+  "dependencies": {
+    "@types/content-disposition": "^0.5.2",
+    "@types/content-type": "^1.1.2",
+    "@types/iconv-lite": "0.0.1",
+    "@types/request": "^2.47.1",
+    "@types/uuid": "^3.4.3",
+    "@types/xml2js": "^0.4.3",
+    "c4utils": "0.0.2",
+    "clone-deep": "^4.0.0",
+    "content-disposition": "^0.5.2",
+    "content-type": "^1.0.4",
+    "iconv-lite": "^0.4.23",
+    "request": "^2.87.0",
+    "uuid": "^3.3.0",
+    "xml2js": "^0.4.19"
+  }
+}
