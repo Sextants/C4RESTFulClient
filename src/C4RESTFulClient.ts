@@ -77,7 +77,7 @@ export default class C4RESTFulClient {
                 this.m_DownloadPath = await PathUtils.GetAbsolutePath(option.downloadPath);
             }
             if (this.m_DownloadPath === "")
-                this.m_DownloadPath = await PathUtils.GetAbsolutePath("./download");
+                this.m_DownloadPath = await PathUtils.GetAbsolutePath("./");
 
             let IsInside = PathUtils.PathInside(process.cwd(), this.m_DownloadPath);
             if (IsInside === false) {

@@ -73,7 +73,7 @@ class C4RESTFulClient {
                     this.m_DownloadPath = yield c4utils_1.PathUtils.GetAbsolutePath(option.downloadPath);
                 }
                 if (this.m_DownloadPath === "")
-                    this.m_DownloadPath = yield c4utils_1.PathUtils.GetAbsolutePath("./download");
+                    this.m_DownloadPath = yield c4utils_1.PathUtils.GetAbsolutePath("./");
                 let IsInside = c4utils_1.PathUtils.PathInside(process.cwd(), this.m_DownloadPath);
                 if (IsInside === false) {
                     throw new Error(`C4RESTFulClient set download path ${this.m_DownloadPath}, not in process run path.`);
