@@ -1,6 +1,6 @@
 {
   "name": "c4restfulclient",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "C4Framework RESTFulClient",
   "main": "out",
   "scripts": {
@@ -28,7 +28,7 @@
     "@types/uuid": "^3.4.3",
     "@types/xml2js": "^0.4.3",
     "c4utils": "0.0.2",
-    "clone-deep": "^4.0.0",
+    "clone-deep": "^2.0.2",
     "content-disposition": "^0.5.2",
     "content-type": "^1.0.4",
     "iconv-lite": "^0.4.23",
